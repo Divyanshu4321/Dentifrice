@@ -71,6 +71,9 @@
       display: flex;
       align-items: center;
     }
+    .swiper-button-next:after, .swiper-button-prev:after{
+      font-size: 25px !important;
+    }
   </style>
   <style media="all">
     /* @charset "UTF-8"; */
@@ -30500,7 +30503,7 @@
           </div>
         </div>
       </section>
-      <section class="swipper1 my-3 container">
+      <section class="swipper1 my-3 ">
         <div class="swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
@@ -30521,8 +30524,8 @@
           <div class="swiper-pagination"></div>
 
           <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class=" swiper-button-prev" style="width: 5px !important;"></div>
+          <div class=" swiper-button-next" style="width: 5px !important;"></div>
 
           <!-- If we need scrollbar -->
           <!-- <div class="swiper-scrollbar"></div> -->
@@ -30852,7 +30855,7 @@
 });
 
 </script>
-<script type="text/javascript" src="https://form.jotform.com/jsform/241205488325455"></script>
+<!-- <script type="text/javascript" src="https://form.jotform.com/jsform/241205488325455"></script> -->
 <script>
   const swiper = new Swiper('.swiper', {
     // Optional parameters
